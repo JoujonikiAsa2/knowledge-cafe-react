@@ -11,7 +11,8 @@ const Blogs = () => {
         .then(data=> setBlogs(data))
     },[]);
     return (
-        <div>           
+        <div className="md:w-2/3">
+            <h1>Blogs</h1>           
         </div>
     );
 };
